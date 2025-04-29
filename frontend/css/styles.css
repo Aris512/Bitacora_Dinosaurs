@@ -18,6 +18,7 @@ body {
 /* Estilos para la galería */
 .gallery {
     display: flex;
+    position: relative;
     height: 580px; 
     width: 1200px; 
     overflow: hidden;
@@ -28,6 +29,7 @@ body {
 /* Estilos para las imágenes */
 .gallery img {
     width: 0;
+    position: relative;
     flex-grow: 1; 
     height: 100%;
     object-fit: cover; 
@@ -42,3 +44,5 @@ body {
     opacity: 1;
     filter: brightness(100%) contrast(120%); /* Resalta la imagen */
 }
+
+
