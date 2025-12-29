@@ -1,9 +1,11 @@
 import { Head } from '@inertiajs/react'
+import { BackgroundAnimation } from '../components/BackgroundAnimation'
 
 export default function Home() {
   return (
     <>
       <Head title="Galería dinosaurios" />
+      <BackgroundAnimation />
       <section className="gallery">
         <img src="https://pbs.twimg.com/media/EsGm-vaXYAAYV8N.jpg:large" alt="dino1" />
         <img src="https://i.pinimg.com/736x/36/00/58/360058b9fffacc0f988840f7b37a9cd5.jpg" alt="dino2" />
